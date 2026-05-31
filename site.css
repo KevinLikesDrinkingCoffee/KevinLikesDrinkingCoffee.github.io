@@ -110,6 +110,10 @@ img {
 }
 
 .visitor-counter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px;
   margin-top: 0.4em;
 }
 
