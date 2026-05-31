@@ -1201,6 +1201,7 @@ def procfile(f):
   fwtitle = False
   css = []
   js = []
+  headextra = []
   title = None
   while pc(f, False) == '#':
     l = f.inf.readline()
@@ -1250,6 +1251,10 @@ def procfile(f):
         elif b.startswith('addjs'):
           r = re.compile(r'(?<!\\){(.*?)(?<!\\)}', re.M + re.S)
           js += re.findall(r, b)
+
+        elif b.startswith('headextra'):
+          r = re.compile(r'(?<!\\){(.*?)(?<!\\)}', re.M + re.S)
+          headextra += re.findall(r, b)
 
         elif b.startswith('addpackage'):
           r = re.compile(r'(?<!\\){(.*?)(?<!\\)}', re.M + re.S)
@@ -1309,6 +1314,10 @@ def procfile(f):
 
   for x in js:
     hb(f.outf, f.conf['specificjs'], x)
+
+  for x in headextra:
+    with open(x, 'r') as hf:
+      out(f.outf, hf.read())
 
   # Look for a title.
   if pc(f) == '=': # don't check exact number f.outf '=' here jem.

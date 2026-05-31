@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{projects.html}, nodefaultcss, addcss{site.css}
+# jemdoc: menu{MENU}{projects.html}, title{Academic Projects | Zhenyu Wu}, nodefaultcss, addcss{site.css}, headextra{head-projects.html}
 = Academic Projects
 
 [index.html Home]

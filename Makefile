@@ -7,10 +7,10 @@ all: html
 
 html: index.html projects.html
 
-index.html: index.jemdoc MENU site.conf site.css tools/jemdoc.py
+index.html: index.jemdoc MENU site.conf site.css head-index.html tools/jemdoc.py
 	$(JEMDOC) -c site.conf index.jemdoc
 
-projects.html: projects.jemdoc MENU site.conf site.css tools/jemdoc.py
+projects.html: projects.jemdoc MENU site.conf site.css head-projects.html tools/jemdoc.py
 	$(JEMDOC) -c site.conf projects.jemdoc
 
 clean:
