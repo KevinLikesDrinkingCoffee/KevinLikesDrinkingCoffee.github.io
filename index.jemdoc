@@ -1,0 +1,91 @@
+# jemdoc: menu{MENU}{index.html}, title{Zhenyu Wu}, nodefaultcss, addcss{site.css}
+
+~~~
+{}{raw}
+<table class="imgtable"><tr><td>
+<img src="assets/photo.jpeg" alt="Zhenyu Wu" width="126px" />&nbsp;</td>
+<td align="left">
+<h1>Zhenyu Wu</h1>
+<p><b>Ph.D. candidate</b></p>
+<p>
+<a href="https://www.eee.hku.hk/" target="blank">Department of Electrical and Electronic Engineering</a><br />
+<a href="https://www.hku.hk/" target="blank">The University of Hong Kong</a><br />
+<a href="projects.html">Academic Projects</a><br />
+<span class="social-links">
+<a class="icon-link" href="https://github.com/KevinLikesDrinkingCoffee" target="blank" title="GitHub"><img class="inline-icon" src="assets/github-mark.svg" alt="GitHub" /></a>
+<a class="icon-link" href="https://scholar.google.com/citations?user=T4tqajAAAAAJ&amp;hl=en" target="blank" title="Google Scholar"><img class="inline-icon" src="assets/google-scholar.svg" alt="Google Scholar" /></a>
+<a class="icon-link" href="https://orcid.org/0009-0004-9416-7967" target="blank" title="ORCID"><img class="inline-icon" src="assets/orcid.svg" alt="ORCID" /></a>
+<a class="icon-link" href="https://www.linkedin.com/in/zhenyu-w-a6935a266/" target="blank" title="LinkedIn"><img class="inline-icon" src="assets/linkedin.svg" alt="LinkedIn" /></a>
+</span><br />
+<b>Email</b>: zhenyuwu[at]connect.hku.hk
+</p>
+</td></tr></table>
+~~~
+
+== Biography
+
+I'm a Ph.D. candidate at the [https://www.eee.hku.hk/ Department of Electrical and Electronic Engineering],
+[https://www.hku.hk/ The University of Hong Kong], under the supervision of
+[https://www.eee.hku.hk/~hso/ Prof. Hayden Kwok-Hay So]. I received my Bachelor degree from
+[https://www.bit.edu.cn/ Beijing Institute of Technology] in 2021.
+
+My research interests include sparse computation, computer architecture,
+FPGA\/GPU acceleration, and software-hardware co-design for heterogeneous platforms.
+My Ph.D. thesis is titled /Efficient Sparse Computation on Heterogeneous Platforms:
+A Software-Hardware Co-Design Methodology/.
+
+== News
+
+- {{<span class="news-date">[2026/06]</span>}} My [https://github.com/KevinLikesDrinkingCoffee/ThunderKittens ThunderKittens fork] adds pseudo-WGMMA support for SM120 and SM80, with an educational SM120 GEMM path reaching cuBLAS-level performance.
+- {{<span class="news-date">[2026/06]</span>}} [projects.html Academic projects] are listed on a separate page.
+
+~~~
+{}{raw}
+<span id="publications"></span>
+~~~
+== Publications
+
+~~~
+{}{raw}
+<ul>
+<li><p>[C3] <b>Z. Wu</b>, B. Plancher, I. McInerney, H. K.-H. So, M. Wang, and K.-T. Cheng,
+&ldquo;<a href="https://doi.org/10.1109/ICFPT67023.2025.00047" target="blank">MPC Solver Hardware Generation Framework with Model-Specific Operation Fusion and Pruning</a>&rdquo;,
+IEEE International Conference on Field Programmable Technology (ICFPT), Shanghai, China, 2025, pp. 239-247.</p></li>
+</ul>
+<ul>
+<li><p>[C2] <b>Z. Wu</b>, M. Wang, and H. K.-H. So,
+&ldquo;<a href="https://doi.org/10.1109/HPCA61900.2025.00068" target="blank">A Hardware-Software Design Framework for SpMV Acceleration with Flexible Access Pattern Portfolio</a>&rdquo;,
+IEEE International Symposium on High Performance Computer Architecture (HPCA), Las Vegas, NV, USA, 2025, pp. 836-848.</p></li>
+</ul>
+<ul>
+<li><p>[C1] <b>Z. Wu</b>, M. Song, and H. K.-H. So,
+&ldquo;<a href="https://doi.org/10.1109/ICFPT59805.2023.00051" target="blank">Towards Asynchronously Triggered Spiking Neural Network on FPGA for Event-based Vision</a>&rdquo;,
+IEEE International Conference on Field Programmable Technology (ICFPT), Yokohama, Japan, 2023, pp. 292-293.</p></li>
+</ul>
+~~~
+
+~~~
+{}{raw}
+<span id="experiences"></span>
+~~~
+== Experiences
+
+- *The University of Hong Kong*, Hong Kong \n
+  Ph.D. candidate in Electrical and Electronic Engineering, Sep. 2021 - Present \n
+  Advisor: [https://www.eee.hku.hk/~hso/ Prof. Hayden Kwok-Hay So]. Thesis: /Efficient Sparse Computation on Heterogeneous Platforms: A Software-Hardware Co-Design Methodology/.
+
+- *AI Chip Center for Emerging Smart Systems (ACCESS)*, Hong Kong \n
+  Research Assistant, Dec. 2024 - Sep. 2025
+
+- *Beijing Institute of Technology*, Beijing, China \n
+  Bachelor of Engineering, School of Information and Electronics, Sep. 2017 - Jun. 2021 \n
+  Undergraduate thesis: System and Circuit Design of the Structured Light Generation for MEMS-based 3D Sensing.
+
+== Visitors
+
+~~~
+{}{raw}
+<div class="visitor-counter">
+<a href="https://info.flagcounter.com/bIcn"><img src="https://s01.flagcounter.com/count/bIcn/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_20/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+</div>
+~~~
