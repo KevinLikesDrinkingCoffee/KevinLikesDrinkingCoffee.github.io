@@ -112,14 +112,32 @@ img {
 .visitor-counter {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 12px;
-  margin-top: 0.4em;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 24px;
+  margin: 0.8em auto 0;
 }
 
-.visitor-counter img {
+.flag-counter,
+.visitor-map-widget {
+  flex: 0 1 380px;
+  max-width: 100%;
+}
+
+.flag-counter {
+  display: flex;
+  justify-content: center;
+}
+
+.flag-counter img {
+  width: 360px;
   max-width: 100%;
   height: auto;
+}
+
+.visitor-map-widget #mapmyvisitors-widget {
+  margin: 0 !important;
+  max-width: 100%;
 }
 
 .icon-link,
